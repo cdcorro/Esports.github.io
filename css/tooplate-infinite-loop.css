@@ -776,7 +776,7 @@ display:inline-block;
 
 
 .our-webcoderskull{
-background: white no-repeat center top / cover;
+background: url("../img/marble.jpg") no-repeat center top / cover;
 
 }
 .our-webcoderskull .cnt-block{ 
