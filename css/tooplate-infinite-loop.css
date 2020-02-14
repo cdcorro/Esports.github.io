@@ -60,7 +60,7 @@ blockquote {
 }
 
 .tm-section-pad-top {
-	background: white; 
+	background: url("../img/square.jpg"); 
   padding-top: 80px;
   padding-bottom: 40px;
 }
