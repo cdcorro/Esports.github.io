@@ -60,6 +60,7 @@ blockquote {
 }
 
 .tm-section-pad-top {
+	background-image: url("../img/marble.jpg");
   padding-top: 80px;
   padding-bottom: 40px;
 }
@@ -70,7 +71,7 @@ blockquote {
 }
 
 .tm-text-primary {
-  color: #37A;
+  color: #394BA0;
 }
 
 .tm-font-big {
@@ -238,22 +239,24 @@ blockquote {
 
 .tm-down-arrow-link {
   display: block;
-  margin-top: 18%;
+  bottom: 0;
 }
 
 .tm-down-arrow {
-  	color: #FFF;
+  	color: #357;
     cursor: pointer;
-    background: #357;
-    padding: 15px 40px;
+    background: #FFF;
+    padding: 15px 25px;
     transition: all 0.3s ease;
+	position: relative;
+	bottom: 0px;
 }
 
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
   color: #FFF;
   background: #37A;
-  padding: 20px 50px;
+  padding: 20px 35px;
 }
 
 /* Introduction */
@@ -304,7 +307,7 @@ blockquote {
 .tm-bg-overlay {
   width: 100%;
   height: 100%;
-  background: rgba(20, 70, 80, 0.2);
+  background: url("../img/keyboard.jpg");
   position: absolute;
   top: 0;
   left: 0;
