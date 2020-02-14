@@ -101,6 +101,7 @@ blockquote {
 }
 
 .tm-navbar.scroll {
+	position: fixed;
   background-color: white;
   border-bottom: 1px solid #e9ecef;
 }
@@ -287,9 +288,8 @@ blockquote {
 #testimonials {
   color: transparent;
   background-image: url(../img/infinite-loop-02.jpg);
-  background-size: cover;
+  background-size: cover 100%;
   background-repeat: no-repeat;
-  background-size: 100%;
   position: relative;
 }
 
