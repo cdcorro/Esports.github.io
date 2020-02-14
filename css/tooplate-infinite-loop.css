@@ -14,20 +14,21 @@ body {
   color: #707070;
   margin: 0;
   padding: 0;
+  width: 100vw;
   overflow-x: hidden;
 }
 body::-webkit-scrollbar 
 {
  width: 15px;
+  background: transparent;
 }
 body::-webkit-scrollbar-track 
 {
- -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
- border-radius:10px;
+ display: none;
 }
 body::-webkit-scrollbar-thumb
 {
- background-color: orange;
+ background-color: blue;
  border-radius:10px;
 }
 a {
@@ -281,7 +282,7 @@ blockquote {
 
 /* testimonials */
 #testimonials {
-  color: white;
+  color: transparent;
   background-image: url(../img/infinite-loop-02.jpg);
   background-size: cover;
   background-repeat: no-repeat;
