@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+</head>
   <body>    
     <!-- Hero section -->
     <section id="infinite" class="text-white tm-font-big tm-parallax">
@@ -23,7 +24,7 @@
           <div class="tm-next">
             <a href="#infinite" >
 				<img src="img/LG-Logo-KO.png" width="40px" class="img-fluid rounded" alt="" >
-			  </a>
+		    </a>
           </div> 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           </button>
@@ -181,81 +182,37 @@
 			-->
           </div>
         </div><!-- Row class-->
-        <div class="row">
-            <div class="col-12">
-                <div class="mx-auto tm-gallery-container">
-                    <div class="grid tm-gallery">
-                      <a href="img/gallery-img-01.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-01.jpg" alt="Image 1" class="img-fluid">
-                          <figcaption>
-							  <h2><i>Prize <br><span>Winners!</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-02.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-02.jpg" alt="Image 2" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Esports gaming at <span>EZY MODE</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-03.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-03.jpg" alt="Image 3" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Some members of <span>Lancer Gaming and EZY Mode</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-04.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-04.jpg" alt="Image 4" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Some mario kart gaming</i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-05.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-05.jpg" alt="Image 5" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Just Dance<br><span>DANCE OFF!</span> </i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-06.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-06.jpg" alt="Image 6" class="img-fluid">
-                          <figcaption>
-                            <h2><i>The more the <span>MERRIER</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-01.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-01.jpg" alt="Image 7" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Another <span>Exercise Time</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-02.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-02.jpg" alt="Image 8" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Repeated <span>Image Spot</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                    </div>
-                </div>                
-            </div>        
-          </div>
-          <p class="mx-auto text-white text-center">
-              
-            </p>
+        <!--gallery carousel -->
+	    <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: grey">
+		    <ol class="carousel-indicators">
+		      <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+		      <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+		      <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+	      </ol>
+		    <div class="carousel-inner" role="listbox">
+		      <div class="carousel-item active"> <img class="d-block mx-auto" src="images/Carousel_Placeholder.png" alt="First slide">
+		        <div class="carousel-caption">
+		          <h5>First slide Heading</h5>
+		          <p>First slide Caption</p>
+	            </div>
+	          </div>
+		      <div class="carousel-item"> <img class="d-block mx-auto" src="images/Carousel_Placeholder.png" alt="Second slide">
+		        <div class="carousel-caption">
+		          <h5>Second slide Heading</h5>
+		          <p>Second slide Caption</p>
+	            </div>
+	          </div>
+		      <div class="carousel-item"> <img class="d-block mx-auto" src="images/Carousel_Placeholder.png" alt="Third slide">
+		        <div class="carousel-caption">
+		          <h5>Third slide Heading</h5>
+		          <p>Third slide Caption</p>
+	            </div>
+	          </div>
+	      </div>
+		    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+<p class="mx-auto text-white text-center">
+  
+</p>
       </div>
       <div class="tm-bg-overlay"></div>
     </section>
@@ -371,14 +328,16 @@
         </footer>
 		
     </section>
-    
-    <script src="js/jquery-1.9.1.min.js"></script>     
+    <!-- <script src="js/jquery-1.9.1.min.js"></script> -->
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="slick/slick.min.js"></script>
     <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="js/easing.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>     
-    <script src="js/bootstrap.min.js"></script> 
-    <script>
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.3.1.js"></script>
+  <script>
 
       function getOffSet(){
         var _offset = 450;
