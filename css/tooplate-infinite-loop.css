@@ -28,18 +28,18 @@ body::-webkit-scrollbar-track
 }
 body::-webkit-scrollbar-thumb
 {
- background-color: blue;
+ background-color: #005596;
  border-radius:10px;
 }
 a {
   transition: all 0.3s ease;
-  color: #38B;
+  color: #005596;
 }
 
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #D40;
+  color: white;
 }
 
 a:focus {
@@ -71,7 +71,7 @@ blockquote {
 }
 
 .tm-text-primary {
-  color: #394BA0;
+  color: #005596;
 }
 
 .tm-font-big {
@@ -80,14 +80,14 @@ blockquote {
 
 .tm-btn-primary {
   color: white;
-  background-color: #369;
+  background-color: #005596;
   padding: 14px 30px;
 }
 
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
   color: white;
-  background-color: #38B;
+  background-color: #005596;
 }
 
 /* Navbar */
@@ -114,11 +114,11 @@ blockquote {
 
 .navbar-brand:hover,
 .tm-navbar.scroll .navbar-brand:hover {
-  color: #38B;
+  color: #005596;
 }
 
 .tm-navbar.scroll .navbar-brand {
-  color: #369;
+  color: #005596;
 }
 
 .nav-item {
@@ -130,14 +130,14 @@ blockquote {
 }
 
 .tm-navbar.scroll .tm-nav-link {
-  color: #369;
+  color: #005596;
 }
 
 .tm-navbar.scroll .tm-nav-link:hover,
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
   color: #FFF;
-  background-color: #369;
+  background-color: #005596;
 }
 
 .navbar-toggler {
@@ -244,7 +244,7 @@ blockquote {
 }
 
 .tm-down-arrow {
-  	color: #357;
+  	color: #005596;
     cursor: pointer;
     background: #FFF;
     padding: 15px 25px;
@@ -256,7 +256,7 @@ blockquote {
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
   color: #FFF;
-  background: #37A;
+  background: #005596;
   padding: 20px 35px;
 }
 
@@ -277,7 +277,7 @@ blockquote {
 
 .tm-icon {
   display: block;
-  color: #37A;
+  color: #005596;
 }
 
 .tm-continue {
@@ -366,7 +366,7 @@ blockquote {
 .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
   opacity: 1;
-  color: #3ba0dd;
+  color: #005596;
 }
 
 .tm-testimonials-carousel .slick-dots li button:before {
@@ -391,7 +391,7 @@ blockquote {
   position: relative;
   float: left;
   overflow: hidden;
-  background: #3085a3;
+  background: #005596;
   text-align: center;
   cursor: pointer;
 }
@@ -482,7 +482,7 @@ figure.effect-honey figcaption::before {
   left: 0;
   width: 100%;
   height: 10px;
-  background: #38C;
+  background: #005596;
   content: "";
   -webkit-transform: translate3d(0, 10px, 0);
   transform: translate3d(0, 10px, 0);
@@ -530,7 +530,7 @@ figure.effect-honey:hover h2 i {
 
 #contact {
   color: white;
-  background-color: #001828;
+  /*background-color: #001828;*/
   background-image: url(../img/infinite-loop-03.jpg);
   background-position: center;
   background-repeat: no-repeat;
